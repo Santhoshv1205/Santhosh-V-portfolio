@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ================================
+   GLOBAL SMOOTH SCROLL
+================================ */
+html {
+  scroll-behavior: smooth;
+}
+
+/* ================================
+   PERFECT SECTION SCROLL OFFSET
+   (THIS FIXES YOUR ISSUE)
+================================ */
+section {
+  scroll-margin-top: 4rem;
+}
