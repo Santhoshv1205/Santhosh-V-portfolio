@@ -1,5 +1,3 @@
-import profile from "../assets/profile.jpg";
-
 const Hero = () => {
   return (
     <section
@@ -12,7 +10,7 @@ const Hero = () => {
         <div className="flex md:hidden justify-center mb-10">
           <div className="relative inline-block rounded-2xl border border-white/20 backdrop-blur">
             <img
-              src={profile}
+              src="https://santhosh-v-portfolio.netlify.app/profile.jpg"
               alt="Santhosh V"
               className="w-60 object-cover rounded-2xl"
             />
@@ -43,7 +41,7 @@ const Hero = () => {
             </a>
 
             <a
-              href="/Santhosh V_Resume.pdf"
+              href="https://santhosh-v-portfolio.netlify.app/Santhosh%20V_Resume.pdf"
               download
               className="px-6 py-3 rounded-lg border border-white/30 hover:border-purple-300 transition !text-white"
             >
@@ -56,7 +54,7 @@ const Hero = () => {
         <div className="hidden md:flex justify-center">
           <div className="relative inline-block rounded-2xl border border-white/20 backdrop-blur">
             <img
-              src={profile}
+              src="https://santhosh-v-portfolio.netlify.app/profile.jpg"
               alt="Santhosh V"
               className="w-80 object-cover rounded-2xl"
             />

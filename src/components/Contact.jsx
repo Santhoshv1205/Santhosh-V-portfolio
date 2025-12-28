@@ -16,7 +16,7 @@ const Contact = () => {
       className="max-w-6xl mx-auto px-6 pt-24 pb-28"
     >
       {/* TITLE */}
-      <h2 className="text-3xl md:text-4xl font-bold mb-3">
+      <h2 className="text-3xl md:text-4xl font-bold mb-3 text-white">
         Contact
       </h2>
 
@@ -100,7 +100,7 @@ const Contact = () => {
         </div>
 
         <a
-          href="/Santhosh_V_Resume.pdf"
+          href="https://santhosh-v-portfolio.netlify.app/Santhosh%20V_Resume.pdf"
           download
           className="flex items-center gap-2 px-6 py-3 rounded-xl bg-white/10 border border-white/20 hover:border-cyan-300 transition text-white"
         >
@@ -108,11 +108,11 @@ const Contact = () => {
           Download Resume
         </a>
       </div>
-      {/* FOOTER COPYRIGHT */}
+
+      {/* FOOTER */}
       <div className="mt-20 text-center text-white/60 text-sm">
         © 2025 Santhosh V. All rights reserved.
       </div>
-
     </section>
   );
 };
