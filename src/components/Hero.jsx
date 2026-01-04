@@ -33,6 +33,7 @@ const Hero = () => {
           </p>
 
           <div className="mt-10 flex flex-wrap gap-4">
+            {/* BUTTON 1 */}
             <a
               href="#projects"
               className="px-6 py-3 rounded-lg bg-white/10 border border-white/20 hover:border-cyan-300 transition text-white"
@@ -40,12 +41,12 @@ const Hero = () => {
               View Projects
             </a>
 
+            {/* BUTTON 2 — PUBLICATIONS */}
             <a
-              href="/Santhosh%20V_Resume.pdf"
-              download
+              href="#publications"
               className="px-6 py-3 rounded-lg border border-white/30 hover:border-purple-300 transition text-white"
             >
-              Download Resume
+              View Publications
             </a>
           </div>
         </div>
