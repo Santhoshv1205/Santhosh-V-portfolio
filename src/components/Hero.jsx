@@ -44,7 +44,7 @@ const Hero = () => {
             {/* BUTTON 2 — PUBLICATIONS */}
             <a
               href="#publications"
-              className="px-6 py-3 rounded-lg border border-white/30 hover:border-purple-300 transition text-white"
+              className="px-6 py-3 rounded-lg bg-white/10 border-white/30 hover:border-purple-300 transition text-white"
             >
               View Publications
             </a>
